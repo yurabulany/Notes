@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "b36dafc9d33f591d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Configs/TLP treshhold.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bc52769c0d267fe2",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trackballs/Increase mouse speed or acceleration past libinput maximum.md",
+                "file": "Configs/TLP treshhold.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trackballs/Increase mouse speed or acceleration past libinput maximum.md",
+                "file": "Configs/TLP treshhold.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trackballs/Increase mouse speed or acceleration past libinput maximum.md"
+                "file": "Configs/TLP treshhold.md"
               }
             }
           },
@@ -170,13 +183,14 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "595860c1afb5a765",
+  "active": "b36dafc9d33f591d",
   "lastOpenFiles": [
+    "Trackballs/Increase mouse speed or acceleration past libinput maximum.md",
+    "Configs/TLP treshhold.md",
     "Configs/Home row modifiers.md",
     "Configs/Kmonad.md",
     "DaVinci/Color correction video.md",
     "DaVinci/Fixing .mp4 in free version on Linux.md",
-    "Trackballs/Increase mouse speed or acceleration past libinput maximum.md",
     "Configs/Vifm.md",
     "Photo/Fujifilm.md",
     "Games/Diablo 2 resurrected.md",
