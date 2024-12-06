@@ -4,6 +4,10 @@ For password entry need to append the /etc/ssh/sshd_config file:
 `PasswordAuthentification yes`
 
 ## SSH login
+For SSH entry need to append the /etc/ssh/sshd_config file:
+`Match User username
+`PasswordAuthentification yes`
+
 For ssh login the steps are the following
 1. Generate the SSH key on the host machine 
 2. Login to VM from the user
