@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Text-logs/Cut-awk-sed.md",
+                "file": "DevOps/Systemd/Systemd + uptime script.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cut-awk-sed"
+              "title": "Systemd + uptime script"
             }
           }
         ],
@@ -58,7 +58,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -183,17 +183,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
     }
   },
   "active": "65d9107b2b46c811",
   "lastOpenFiles": [
     "DevOps/Text-logs/Cut-awk-sed.md",
+    "DevOps/Systemd/Systemd + uptime script.md",
+    "DevOps/Systemd",
     "DevOps/Working with text-logs.md",
     "DevOps/Text-logs",
     "DevOps/Users/Transfer files.md",
