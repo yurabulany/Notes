@@ -8,43 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "595860c1afb5a765",
+            "id": "d5d915707a0ebd3b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trackballs/Increase mouse speed or acceleration past libinput maximum.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b36dafc9d33f591d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Configs/TLP treshhold.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc52769c0d267fe2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Configs/Home row modifiers.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -79,7 +54,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
             }
           },
           {
@@ -87,7 +64,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
             }
           }
         ]
@@ -110,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Configs/TLP treshhold.md",
+                "file": "Hugo/Docker commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +97,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Docker commands"
             }
           },
           {
@@ -127,10 +108,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Configs/TLP treshhold.md",
+                "file": "Hugo/Docker commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Docker commands"
             }
           },
           {
@@ -141,7 +124,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
             }
           },
           {
@@ -150,8 +135,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Configs/TLP treshhold.md"
-              }
+                "file": "Hugo/Docker commands.md"
+              },
+              "icon": "lucide-list",
+              "title": "Структура Docker commands"
             }
           },
           {
@@ -163,7 +150,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
             }
           }
         ]
@@ -183,10 +172,13 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "b36dafc9d33f591d",
+  "active": "1657f9b420f217cc",
   "lastOpenFiles": [
+    "Hugo/Docker commands.md",
+    "Hugo/Docker compose.md",
     "Trackballs/Increase mouse speed or acceleration past libinput maximum.md",
     "Configs/TLP treshhold.md",
+    "Hugo",
     "Configs/Home row modifiers.md",
     "Configs/Kmonad.md",
     "DaVinci/Color correction video.md",

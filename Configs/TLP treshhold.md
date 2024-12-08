@@ -1,1 +1,1 @@
-sudo tlp setcharge BAT0 1
+sudo tlp setcharge BAT0 1 
