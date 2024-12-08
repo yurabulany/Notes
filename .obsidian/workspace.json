@@ -8,16 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d5d915707a0ebd3b",
+            "id": "e8427302bde67d59",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Text-logs/Cut-awk-sed.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Cut-awk-sed"
+            }
+          },
+          {
+            "id": "65d9107b2b46c811",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Text-logs/Cut-awk-sed.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cut-awk-sed"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +58,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловый менеджер"
+              "title": "Files"
             }
           },
           {
@@ -56,7 +75,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Поиск"
+              "title": "Search"
             }
           },
           {
@@ -66,7 +85,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Закладки"
+              "title": "Bookmarks"
             }
           }
         ]
@@ -89,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hugo/Docker commands.md",
+                "file": "DevOps/User login.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Docker commands"
+              "title": "Backlinks for User login"
             }
           },
           {
@@ -108,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hugo/Docker commands.md",
+                "file": "DevOps/User login.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Docker commands"
+              "title": "Outgoing links from User login"
             }
           },
           {
@@ -126,7 +145,7 @@
                 "useHierarchy": true
               },
               "icon": "lucide-tags",
-              "title": "Теги"
+              "title": "Tags"
             }
           },
           {
@@ -135,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hugo/Docker commands.md"
+                "file": "DevOps/User login.md"
               },
               "icon": "lucide-list",
-              "title": "Структура Docker commands"
+              "title": "Outline of User login"
             }
           },
           {
@@ -152,7 +171,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "Все свойства"
+              "title": "All properties"
             }
           }
         ]
@@ -164,21 +183,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "1657f9b420f217cc",
+  "active": "65d9107b2b46c811",
   "lastOpenFiles": [
-    "Hugo/Docker commands.md",
-    "Hugo/Docker compose.md",
+    "DevOps/Text-logs/Cut-awk-sed.md",
+    "DevOps/Working with text-logs.md",
+    "DevOps/Text-logs",
+    "DevOps/Users/Transfer files.md",
+    "DevOps/Users",
+    "DevOps/Users/User login.md",
+    "DevOps/Users/Working with users.md",
     "Trackballs/Increase mouse speed or acceleration past libinput maximum.md",
     "Configs/TLP treshhold.md",
-    "Hugo",
+    "DevOps",
     "Configs/Home row modifiers.md",
     "Configs/Kmonad.md",
     "DaVinci/Color correction video.md",
