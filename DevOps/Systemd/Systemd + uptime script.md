@@ -1,5 +1,6 @@
 ## Script
 
+```
 #!/bin/bash
 
 while true; do
@@ -25,9 +26,9 @@ while true; do
     # Задержка 15 секунд перед следующим циклом
     sleep 15
 done
-
+```
 ## Systemd service
-
+```
 [Unit] 
 Description=Write uptime to file every 15 seconds 
 After=network.target 
@@ -38,3 +39,5 @@ RestartSec=5
 User=root 
 
 [Install] WantedBy=multi-user.target
+
+```
