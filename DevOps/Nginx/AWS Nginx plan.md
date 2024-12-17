@@ -7,47 +7,52 @@
 2. Two instances for proxy/website
 
 ## Configs (`/etc/nginx/nginx.conf`) for:
-### Load balancer
+### Load balancer 
+1. Create a new file in `/etc/nginx/conf.d/load-balancer.conf`
 
 ```
-http {
-    upstream backend_servers {
-        server backend-1-private-ip:80;   # Replace with private IP of backend 1
-        server backend-2-private-ip:80;   # Replace with private IP of backend 2
-    }
-
-    server {
-        listen 80;
-
-        location / {
-            proxy_pass http://backend_servers;
-            proxy_set_header Host $host;
-            proxy_set_header X-Real-IP $remote_addr;
-            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        }
-    }
+upstream backend_servers {
+    server 192.168.1.10:80 max_fails=3 fail_timeout=30s; # ip addres of a node
+    server 192.168.1.11:80 max_fails=3 fail_timeout=30s; # ip addres of a node
 }
 
-```
+server {
+    listen 80;
 
+    location / {
+        proxy_pass http://backend_servers;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    }
+
+    access_log /var/log/nginx/access.log;
+    error_log /var/log/nginx/error.log;
+}
+
+
+```
+2. check nginx config `sudo nginx -t`
+3. restart nginx `sudo systemctl restart nginx.service`
 ### Proxy
-
+1. Create config file at /etc/nginx/sites-available/example.com
 ```
-http {
-    server {
-        listen 80;
+server {
+    listen 80;
+    server_name 3.71.50.224; #ip address of the ec2 instance
 
-        location / {
-            root /var/www/html;          # Local path to the website files (if hosting static content)
-            index index.html index.htm; # Default files to serve
-        }
+    root /var/www/html;
+    index blue.html;
 
-        # Proxy example if forwarding to another backend
-        # location / {
-        #     proxy_pass http://backend-service-ip:80; 
-        #     proxy_set_header Host $host;
-        #     proxy_set_header X-Real-IP $remote_addr;
-        #     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        # }
+    location / {
+        try_files $uri $uri/ =404;
     }
 }
+```
+2. Create symbolic link for  /etc/nginx/sites-available/example.com to /etc/nginx/sites-enabled/ `ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/`
+3.  check nginx config `sudo nginx -t`
+4. restart nginx `sudo systemctl restart nginx.service`
+
+
+!!! check this article! 
+https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-setup-an-Nginx-load-balancer-examples
