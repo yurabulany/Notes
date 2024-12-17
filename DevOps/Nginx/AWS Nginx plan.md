@@ -8,7 +8,8 @@
 
 ## Configs (`/etc/nginx/nginx.conf`) for:
 ### Load balancer 
-1. Create a new file in `/etc/nginx/conf.d/load-balancer.conf`
+1. Delete default config (if running on Debian based distros) in `/etc/nginx/sites-enabled/default`
+2. Create a new files in `/etc/nginx/conf.d/load-balancer.conf`
 
 ```
 upstream backend_servers {
@@ -58,3 +59,5 @@ server {
 https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-setup-an-Nginx-load-balancer-examples
 
 https://upcloud.com/resources/tutorials/configure-load-balancing-nginx
+
+https://www.youtube.com/watch?v=ZdMG-vZ5Sjg
