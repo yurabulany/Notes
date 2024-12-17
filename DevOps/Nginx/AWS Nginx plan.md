@@ -54,5 +54,7 @@ server {
 4. restart nginx `sudo systemctl restart nginx.service`
 
 
-!!! check this article! 
+!!! check this articles! 
 https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-setup-an-Nginx-load-balancer-examples
+
+https://upcloud.com/resources/tutorials/configure-load-balancing-nginx
