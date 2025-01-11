@@ -35,7 +35,7 @@ server {
 ```
 2. check nginx config `sudo nginx -t`
 3. restart nginx `sudo systemctl restart nginx.service`
-### Proxy
+### Proxy (nodes)
 1. Create config file at /etc/nginx/sites-available/example.com
 ```
 server {
