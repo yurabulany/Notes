@@ -56,7 +56,7 @@ server {
 
 ### Video of the result
 
-[Result video](../Videos/2025-01-12 19-13-07.mkv)
+[Result video](../Videos/2025-01-12%19-13-07.mkv)
 
 
 !!! check this articles! 
