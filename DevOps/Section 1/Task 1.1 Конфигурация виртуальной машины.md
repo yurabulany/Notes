@@ -11,7 +11,7 @@ For password entry need to append the /etc/ssh/sshd_config file:
 `Match User username
 `PasswordAuthentification yes`
 
-### ## SSH login
+### SSH login
 For SSH entry need to append the /etc/ssh/sshd_config file:
 `Match User username
 `PasswordAuthentification yes`
