@@ -241,3 +241,7 @@ http {
 ```
 
 For apache the default config was used, I just changed the file in /var/www/html
+
+### Result video
+[Result video](../Videos/Apache+ssl+nginx.mkv)
+
