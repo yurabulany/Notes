@@ -1,7 +1,7 @@
 ## Task 1
 
 Original state
-../Images/Pasted image 20250111193022.png
+![Description of Image](../Images/Pasted image 20250111193022.png)
 
 After a new disk was added
 ../Images/Pasted image 20250111210349.png
