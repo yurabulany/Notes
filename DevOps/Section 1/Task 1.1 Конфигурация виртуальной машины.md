@@ -27,7 +27,9 @@ For ssh login the steps are the following
 
 ### Users on ec2 machine (vm name - users)
 Raymond (ssh, password - test)
+
 John (password - test)
+
 steve (password - test)
 
 
