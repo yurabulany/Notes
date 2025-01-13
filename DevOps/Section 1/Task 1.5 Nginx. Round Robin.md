@@ -6,7 +6,7 @@
 1. One instance for load balancer
 2. Two instances for proxy/website
 
-## Configs (`/etc/nginx/nginx.conf`) for:
+## Configs for:
 ### Load balancer 
 1. Delete default config (if running on Debian based distros) in `/etc/nginx/sites-enabled/default`
 2. Delete default config (if running on Debian based distros) in `/etc/nginx/sites-available/default`
