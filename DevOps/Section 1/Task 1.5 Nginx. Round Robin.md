@@ -62,6 +62,4 @@ server {
 !!! check this articles! 
 https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-setup-an-Nginx-load-balancer-examples
 
-https://upcloud.com/resources/tutorials/configure-load-balancing-nginx
-
 https://www.youtube.com/watch?v=ZdMG-vZ5Sjg
