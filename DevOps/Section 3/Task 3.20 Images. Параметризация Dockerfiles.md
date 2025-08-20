@@ -17,6 +17,10 @@ RUN mkdir -p /opt/ && touch /opt/"$ARG_FILE"
 
 `docker build --build-arg NG_VERSION=stable --build-arg ARG_FILE=myfile.txt -t nginx:innow-dkr-10 .`
 
+## Run command
+
+`docker run -d -e INNO=DKR10 nginx:innow-dkr-10`
+
 ## Result video
 
 [Result video](../Videos/docker9.mkv)
