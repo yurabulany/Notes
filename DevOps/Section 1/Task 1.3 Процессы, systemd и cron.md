@@ -1,4 +1,5 @@
 ## Jobs
+
 `jobs` - to view the list of running jobs
 
 CTRL + Z to suspend the job
@@ -14,6 +15,7 @@ CTRL + Z to suspend the job
 ## Cron
 
 ### Script
+
 ```
 #!/bin/bash
 
@@ -37,6 +39,7 @@ fi
 ```
 
 ### Cron command
+
 ```
 sudo crontab -e path/to/script
 
@@ -44,7 +47,9 @@ sudo crontab -e path/to/script
 ```
 
 ## Systemd
+
 ### Uptime script
+
 ```
 #!/bin/bash
 
@@ -88,4 +93,4 @@ RestartSec=5
 User=root 
 
 [Install] WantedBy=multi-user.target
-```
+

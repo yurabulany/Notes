@@ -1,4 +1,5 @@
 *Docker file*
+
 ```
 FROM ubuntu:18.04
 
@@ -17,6 +18,7 @@ ENTRYPOINT ["nginx"]
 
 CMD ["-g", "daemon off;"]
 ```
+
 It is important to add nginx user to the docker file instructions, otherwise the container will not start!
 
 `RUN useradd --no-create-home --shell /bin/false nginx`
